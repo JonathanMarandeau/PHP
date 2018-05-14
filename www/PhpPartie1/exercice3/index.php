@@ -1,10 +1,10 @@
 <!DOCTYPE html>
-<html>
+<html lang="fr">
   <head>
     <meta charset="utf-8" />
     <title>PHP Partie 1 Exercice 3</title>
-    <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
-    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet" />
+    <link rel="stylesheet" href="style.css" />
   </head>
   <body>
     <h1>Créer une variable km. L'initialiser à 1. Afficher son contenu.
@@ -15,14 +15,20 @@
       <?php
         $km = 1;
         echo $km;
-      ?></br>
+      ?><br />
       <?php
         $km = 3;
-        echo $km
-      ?></br>
+        echo $km;
+      ?><br />
       <?php
         $km = 125;
-        echo $km
+        echo $km;
+        ?><br />
+        <?php
+          $km = 1;
+          $km = 15;
+          $km = 125;
+          echo $km;
         ?>
    </p>
   </body>
