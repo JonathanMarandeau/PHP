@@ -18,12 +18,9 @@
       <?php
       //Création de la variable genre
         $gender = 'femme';
-        if ($gender != 'homme')//Si gender est différent de homme alors
-        {
+        if ($gender != 'homme'){//Si gender est différent de homme alors
           echo 'C\'est une développeuse !!!';
-        }
-        else//Sinon
-        {
+        } else {//Sinon
           echo 'C\'est un développeur !!!';
         }
       ?>

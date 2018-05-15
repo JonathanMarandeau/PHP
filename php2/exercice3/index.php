@@ -26,23 +26,16 @@
       <p>
         <?php
           //Création des deux variables age et genre
-          $age = 25;
-          $gender = 'homme';
+          $age = 16;
+          $gender = 'femme';
           //Je crée les différentes conditions d'affichage
-          if ($age < 18 && $gender = 'homme')//Si inférieur a 18 ET(&&) homme alors
-          {
+          if ($age < 18 && $gender == 'homme'){//Si inférieur a 18 ET(&&) homme alors
             echo 'Vous êtes un homme et vous êtes mineur';
-          }
-          else if ($age < 18 && $gender != 'homme')//Si inférieur a 18 ET(&&) Différent de homme alors
-          {
+          } else if ($age < 18 && $gender != 'homme'){//Si inférieur a 18 ET(&&) Différent de homme alors
             echo 'Vous êtes une femme et vous êtes mineur';
-          }
-          else if ($age >= 18 && $gender = 'homme')//Si supérieur ou égal a 18 ET(&&) homme alors
-          {
+          } else if ($age >= 18 && $gender == 'homme'){//Si supérieur ou égal a 18 ET(&&) homme alors
             echo 'Vous êtes un homme et vous êtes majeur';
-          }
-          else//Sinon 
-          {
+          } else {//Sinon
             echo 'Vous êtes une femme et vous êtes majeur';
           }
         ?>

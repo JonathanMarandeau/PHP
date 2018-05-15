@@ -44,6 +44,7 @@
               break;
               default:
                 echo 'Visiblement vous n\'avez pas saisi jusqu\'où allé la notation de Richter';
+              break;
             }
         ?>
       </p>

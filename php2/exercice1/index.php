@@ -16,12 +16,9 @@
         <?php
           $age = 25;
           //Je mets en place ma condition pour afficher une phrase en fonction de l'âge
-          if ($age <= 18)
-          {
+          if ($age <= 18) {
             echo "Tu es mineur tchio père ! Va faire tes devoirs !";
-          }
-          else
-          {
+          } else {
             echo "Tu es un majeur vacciné l'artiste chapeau bas !";
           }
         ?>

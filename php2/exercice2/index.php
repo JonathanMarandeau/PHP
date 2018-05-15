@@ -17,12 +17,10 @@
         //J'initialise ma variable booléan avec true ou false
           $isEasy = false;
         //Je mets en place les conditions pour l'affichage
-        if ($isEasy == true)//ou if ($isEasy),php comprend qu'il faut vérifié true en priorité
-        {
-          echo "C'est facile l'artiste";
-        }
-        else{
-          echo "C'est difficile Morray";
+        if ($isEasy == true){//ou if ($isEasy),php comprend qu'il faut vérifié true en priorité
+          echo 'C\'est facile l\'artiste';
+        } else {
+          echo 'C\'est difficile Morray';
         }
         ?>
       </p>

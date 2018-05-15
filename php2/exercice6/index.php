@@ -18,12 +18,9 @@
       <?php
       //Variable age initialisé a 18
         $age = 18;
-        if ($age >= 18)//Si tu as 18 ou plus
-        {
+        if ($age >= 18){//Si tu as 18 ou plus
           echo 'Tu es majeur moussaillon !';
-        }
-        else //Sinon 
-        {
+        } else {//Sinon 
           echo 'Prend des épinards, puis attends de grandir petit !';
         }
       ?>

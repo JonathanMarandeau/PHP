@@ -19,9 +19,7 @@
         $firstCalculation = 3 + 4;
         $secondCalculation = 5 * 20;
         $thirdCalculation = 45 / 5;
-        echo 'Résultat Première Opération: ' .$firstCalculation . ' ' . 'Résultat Seconde Opération: ' .$secondCalculation . ' '. 'Résultat Troisième Opération: ' .$thirdCalculation;
-
-
-       ?>
+      ?>
+      <p><?php echo 'Résultat Première Opération : ' . $firstCalculation . ' Résultat Seconde Opération : ' . $secondCalculation . ' Résultat Troisième Opération : ' . $thirdCalculation; ?></p>
   </body>
 </html>
