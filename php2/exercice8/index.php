@@ -8,10 +8,20 @@
   </head>
   <body>
     <h1>PHP Partie 2 Exercice 8</h1>
-      <h2>Traduire ce code avec des if et des else :
-        &lt;?php
-        echo ($maVariable) ? 'c'est ok !!' : 'c'est pas bon !!!';
-        ?&gt;
-      </h2>
+    <h2>Traduire ce code avec des if et des else :
+      &lt;?php
+      echo ($maVariable) ? 'c'est ok !!' : 'c'est pas bon !!!';
+      ?&gt;
+    </h2>
+    <p>
+      <?php
+        $itsOk = false;
+        if ($itsOk){
+        echo 'C\'est ok !!';
+        } else {
+          echo 'C\'est pas bon !!!';
+        }
+      ?>
+    </p>
   </body>
 </html>
