@@ -4,7 +4,7 @@
     <meta charset="utf-8" />
     <title>PHP Partie 2 Exercice 1</title>
     <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet" />
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="style.css" />
   </head>
   <body>
     <h1>PHP Partie 2 Exercice 1</h1>
