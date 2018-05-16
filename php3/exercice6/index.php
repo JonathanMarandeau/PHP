@@ -13,13 +13,11 @@
       </div>
     <h2>Exercice 6</h2>
     <div class="content">
-      <!--Création de la variable et de son initialistation-->
-        <p>La variable commence à : <?php $textStart = 20; echo $textStart; ?></p>
-        <p><?php
-            while ($textStart >=0){//Devra aller jusqu'à 0
-            echo 'c\'est presque bon.<br />';//Affichage
-            $textStart--;//Décrementation -1
-            }?></p>
+      <!--Création de la variable et de son initialistation; jusqu'a 0; décrémente de 1-->
+        <p><?php for ($textStart = 20; $textStart >= 0; $textStart--){
+            echo 'c\'est presque bon.' . '|';//Affichage
+            }?>
+        </p>
     </div>
   </body>
 </html>

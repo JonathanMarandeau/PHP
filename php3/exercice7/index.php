@@ -13,13 +13,11 @@
       </div>
       <h2>Exercice 7</h2>
         <div class="content">
-          <!--Création de la variable avec initialisation a 1-->
-          <p>La variable est initialisé a : <?php $textStart = 1; echo $textStart; ?></p>
-          <p><?php
-              while ($textStart <= 100){//Devra aller jusqu'à 100
-              echo 'On tient le bon bout.<br />';//Affichage
-              $textStart+= 15;//Variable + 15 a chaque boucle
-              }?></p>
+          <!--Création de la variable avec initialisation a 1;jusqu'a 100; incrémente +15-->
+          <p><?php for ($textStart = 1; $textStart <= 100; $textStart += 15){//Devra aller jusqu'à 100
+              echo 'On tient le bon bout.' . '|';//Affichage
+              }?>
+          </p>
         </div>
   </body>
 </html>

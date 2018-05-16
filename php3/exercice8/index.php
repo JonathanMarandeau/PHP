@@ -13,14 +13,11 @@
     </div>
     <h2>Exercice 8</h2>
       <div class="content">
-        <!--Création de la variable initialisé a 200-->
-        <p>La variable sera initialisé à : <?php $textStart = 200; echo $textStart; ?></p>
-        <p><?php
-            while ($textStart >=0){//Boucle jusqu'à 0
-            echo 'Enfin !!!!.';//Affichage
-            $textStart-= 12;//Variable - 12 à chaque boucle
-            }?></p>
-
+        <!--Création de la variable initialisé a 200;juqu'a 0; décremente de 12-->
+        <p><?php for ($textStart = 200; $textStart >= 0; $textStart -= 12){
+            echo 'Enfin !!!!.' . '|';//Affichage
+            }?>
+        </p>
       </div>
   </body>
 </html>

@@ -13,11 +13,9 @@
       </div>
     <h2>Exercice 5</h2>
       <div class="content">
-        <!--Création de la variable,initialisé a 1-->
-        <p>La variable de départ sera : <?php $textStart = 1; echo $textStart?></p>
-        <p><?php while ($textStart <= 15){//Boucle de la variable jusqu'à 15
-            echo 'On y arrive presque.<br />';//Affichage
-            $textStart++;//Incrémentation de la variable +1
+        <!--Boucle de la variable initialisé a 1, jusqu'a 15, s'incrémente de +1-->
+        <p><?php for ($textStart = 1; $textStart <= 15; $textStart++){
+            echo 'On y arrive presque.' . '|';//Affichage
             }?>
         </p>
       </div>
