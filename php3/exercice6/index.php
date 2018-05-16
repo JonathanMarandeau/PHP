@@ -16,9 +16,9 @@
       <!--Création de la variable et de son initialistation-->
         <p>La variable commence à : <?php $textStart = 20; echo $textStart; ?></p>
         <p><?php
-            while ($textStart >=0){
-            echo 'c\'est presque bon.<br />';
-            $textStart--;
+            while ($textStart >=0){//Devra aller jusqu'à 0
+            echo 'c\'est presque bon.<br />';//Affichage
+            $textStart--;//Décrementation -1
             }?></p>
     </div>
   </body>
