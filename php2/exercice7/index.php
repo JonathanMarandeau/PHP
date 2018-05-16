@@ -18,12 +18,9 @@
       <?php
       //Création de la variable
         $bouncer = 'true';
-        if ($bouncer == 'false')
-        {
+        if ($bouncer == 'false'){
           echo 'C\'est pas bon faut des filles !';
-        }
-        else
-        {
+        } else {
           echo 'C\'est ok amusez-vous bien les artistes !';
         }
       ?>
