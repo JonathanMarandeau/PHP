@@ -11,7 +11,7 @@
       <div class="order">
         <p>En allant de 1 à 100 avec un pas de 15, afficher le message On tient le bon bout.</p>
       </div>
-      <h2>Exercice 2</h2>
+      <h2>Exercice 7</h2>
         <div class="content">
           <!--Création de la variable avec initialisation a 1-->
           <p>La variable est initialisé a : <?php $textStart = 1; echo $textStart; ?></p>
