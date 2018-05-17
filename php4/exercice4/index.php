@@ -22,24 +22,24 @@
           <?php
           //Je crée mes deux variables nombres
           $number1 = 15;
-          $number2 = 15;
+          $number2 = 19;
           //Je crée une fonction returnNumber avec deux paramètres nombre
           function returnNumber($number1, $number2){
             //Si nombre1 plus grand que nombre 2
             if ($number1 > $number2){
               //Alors affiche ça
-              echo 'Le premier nombre' . ' ' . $number1 . ' ' . 'est plus grand que le deuxième' . ' ' . $number2;
+              return 'Le premier nombre' . ' ' . $number1 . ' ' . 'est plus grand que le deuxième' . ' ' . $number2;
               //Mais si nombre1 plus petit que nombre2
             } else if ($number1 < $number2){
               //Alors affiche ça
-              echo 'le premier nombre' . ' ' . $number1 . ' ' . 'est plus petit que le deuxième' . ' ' . $number2;
+              return 'le premier nombre' . ' ' . $number1 . ' ' . 'est plus petit que le deuxième' . ' ' . $number2;
               //Sinon (nombre1 = nombre2)
             } else {
               //Affiche ça
-              echo 'le premier nombre' . ' ' . $number1 . ' ' . 'est identique au deuxième' . ' ' . $number2;
+              return 'le premier nombre' . ' ' . $number1 . ' ' . 'est identique au deuxième' . ' ' . $number2;
             }
           }
-          returnNumber($number1, $number2);
+          echo returnNumber($number1, $number2);
           ?>
         </p>
       </div>
