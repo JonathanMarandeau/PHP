@@ -27,9 +27,6 @@
       <div class="content">
         <p>
           <?php
-          //Création des deux variables age et genre
-          $age = 4;
-          $gender = 'Homme';
           //Création de la fonction
           function returnOption($age, $gender){
             //Si majeur et homme
@@ -49,7 +46,7 @@
               //Affiche ça
               return 'Vous êtes une femme et vous êtes mineur';
           }
-        } echo returnOption($age, $gender);
+        } echo returnOption(4, 'Homme');
           ?>
         </p>
       </div>
