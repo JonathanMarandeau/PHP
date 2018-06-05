@@ -1,3 +1,13 @@
+<?php
+//Création de mes 3 variables
+$lastname = 'Marandeau';
+$firstname = 'Jonathan';
+$age = 25;
+//Création de la function qui retourne mes variables
+function returnThisString($lastnameParameter, $firstnameParameter, $ageParameter){
+  return 'Bonjour ' . $firstnameParameter . ' ' . $lastnameParameter . ', tu as ' . $ageParameter . ' ans';
+}
+?>
 <!DOCTYPE html>
 <html lang="fr">
   <head>
@@ -14,19 +24,7 @@
       </div>
     <h2>Exercice 6</h2>
       <div class="content">
-        <p>
-        <?php
-        //Création de mes 3 variables
-        $lastname = 'Marandeau';
-        $firstname = 'Jonathan';
-        $age = 25;
-        //Création de la function qui retourne mes variables
-        function returnThisString($lastname, $firstname, $age){
-          return 'Bonjour ' . $firstname . ' ' . $lastname . ',' . ' tu as ' . $age . ' ans';
-        }
-        echo returnThisString($lastname, $firstname, $age);
-        ?>
-      </p>
+        <p><?php echo returnThisString($lastname, $firstname, $age);?></p>
       </div>
   </body>
 </html>

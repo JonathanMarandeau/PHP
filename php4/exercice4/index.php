@@ -1,3 +1,25 @@
+<?php
+//Je crée mes deux variables nombres
+$firstNumber = 15;
+$secondNumber = 19;
+//Je crée une fonction returnNumber avec deux paramètres nombre
+function returnNumber($number1, $number2){
+  //Si nombre1 plus grand que nombre 2
+  if ($number1 > $number2){
+    //Alors affiche ça (Variable result)
+    $result = 'Le premier nombre' . ' ' . $number1 . ' ' . 'est plus grand que le deuxième' . ' ' . $number2;
+    //Mais si nombre1 plus petit que nombre2
+  } else if ($number1 < $number2){
+    //Alors affiche ça
+    $result = 'le premier nombre' . ' ' . $number1 . ' ' . 'est plus petit que le deuxième' . ' ' . $number2;
+    //Sinon (nombre1 = nombre2)
+  } else {
+    //Affiche ça
+    $result = 'le premier nombre' . ' ' . $number1 . ' ' . 'est identique au deuxième' . ' ' . $number2;
+  }
+  return $result;
+}
+ ?>
 <!DOCTYPE html>
 <html lang="fr">
   <head>
@@ -18,30 +40,7 @@
       </div>
     <h2>Exercice 4</h2>
       <div class="content">
-        <p>
-          <?php
-          //Je crée mes deux variables nombres
-          $number1 = 15;
-          $number2 = 19;
-          //Je crée une fonction returnNumber avec deux paramètres nombre
-          function returnNumber($number1, $number2){
-            //Si nombre1 plus grand que nombre 2
-            if ($number1 > $number2){
-              //Alors affiche ça
-              return 'Le premier nombre' . ' ' . $number1 . ' ' . 'est plus grand que le deuxième' . ' ' . $number2;
-              //Mais si nombre1 plus petit que nombre2
-            } else if ($number1 < $number2){
-              //Alors affiche ça
-              return 'le premier nombre' . ' ' . $number1 . ' ' . 'est plus petit que le deuxième' . ' ' . $number2;
-              //Sinon (nombre1 = nombre2)
-            } else {
-              //Affiche ça
-              return 'le premier nombre' . ' ' . $number1 . ' ' . 'est identique au deuxième' . ' ' . $number2;
-            }
-          }
-          echo returnNumber($number1, $number2);
-          ?>
-        </p>
+        <p><?php echo returnNumber($firstNumber, $secondNumber);?></p>
       </div>
   </body>
 </html>

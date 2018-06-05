@@ -14,7 +14,7 @@
     <h2>Exercice 2</h2>
       <div class="content">
         <!--Je crée un tableau mois-->
-        <p><?php $months = array ('janvier', 'février', 'mars', 'avril', 'mai', 'juin', 'juillet', 'aout', 'septembre', 'octobre', 'novembre', 'décembre'); ?></p>
+        <?php $months = array ('janvier', 'février', 'mars', 'avril', 'mai', 'juin', 'juillet', 'aout', 'septembre', 'octobre', 'novembre', 'décembre'); ?>
         <!--J'affiche la 3 ligne du tableau-->
         <p><?php echo $months[2]; ?></p>
       </div>

@@ -17,11 +17,11 @@
           <?php
           //Je crée une fonction returnTrue
             function returnTrue() {
-            //Je demande d'afficher true
-            echo true;
+            //Je demande de retourner true
+            return true;
           }
-            //J'appel ma fonction
-            returnTrue();
+            //J'appelle (ou 'j'instancie') ma fonction
+            echo returnTrue();
           ?>
         </p>
       </div>

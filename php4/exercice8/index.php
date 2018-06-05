@@ -1,3 +1,12 @@
+<?php
+  //Création de la fonction de calcul de la somme des trois paramètres avec valeur de paramètre par defaut
+  function returnCalcul($number1 = 15, $number2 = 10, $number3 = 7){
+    //Création de la variable result qui est la somme des trois variable
+    $result = $number1 + $number2 + $number3;
+    //Renvoi le resultat
+    return 'Le résultat est : ' . $result;
+  }
+?>
 <!DOCTYPE html>
 <html lang="fr">
   <head>
@@ -13,21 +22,7 @@
       </div>
     <h2>Exercice 8</h2>
       <div class="content">
-        <p>
-          <?php
-          //Création des trois variables nombre
-          $number1 = 15;
-          $number2 = 10;
-          $number3 = 7;
-          //Création de la fonction de calcul de la somme des trois paramètres
-          function returnCalcul($number1, $number2, $number3){
-            //Création de la variable result qui est la somme des trois variable
-            $result = $number1 + $number2 + $number3;
-            //Renvoi le resultat
-            return 'Le résultat est : ' . $result;
-          }
-          echo returnCalcul(2, 2, 2); ?>
-        </p>
+        <p><?php echo returnCalcul(); ?></p>
       </div>
   </body>
 </html>

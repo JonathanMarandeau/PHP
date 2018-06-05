@@ -16,14 +16,14 @@
       <p>
         <?php
         //Je crée une variable de chaine de caractère
-        $string = 'Booonnnnjouuuuurrr Mickaeeeeeeelllll';
+        $hello = 'Booonnnnjouuuuurrr Mickaeeeeeeelllll';
         //Je crée ma fonction returnString avec comme paramètre ma variable $string
         function returnString($string){
         //Je demande d'afficher ma variable
-        echo $string;
+        return $string;
         }
-        //Je fais appel à ma fonction
-        returnString($string);
+        //J'appelle ma fonction
+        echo returnString($hello);
         ?>
       </p>
     </div>

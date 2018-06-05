@@ -1,3 +1,13 @@
+<?php
+//Création d'une variable nombre et d'une variable string
+$number = 15;
+$string = ' est un nombre porte bonheur (sisi c\'est vrai !).';
+//Création de la fonction avec les deux paramètres
+function returnStringNumber($numberParameter, $stringParameter){
+  //On renvoi a l'affichage la concaténation des deux variables
+  return $numberParameter . $stringParameter;
+}
+ ?>
 <!DOCTYPE html>
 <html lang="fr">
   <head>
@@ -15,14 +25,6 @@
       <div class="content">
         <p>
           <?php
-          //Création d'une variable nombre et d'une variable string
-          $number = 15;
-          $string = ' est un nombre porte bonheur (sisi c\'est vrai !).';
-          //Création de la fonction avec les deux paramètres
-          function returnStringNumber($number, $string){
-            //On renvoi a l'affichage la concaténation des deux variables
-            return $number . $string;
-          }
           //J'affiche la fonction
           echo returnStringNumber($number, $string);
           ?>

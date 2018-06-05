@@ -1,0 +1,19 @@
+body{
+  font-family: 'Open Sans', sans-serif;
+  background-color: #90b9f9;
+}
+h1{
+  text-align: center;
+  text-decoration: underline;
+}
+h2{
+  text-align: center;
+  text-decoration: underline;
+}
+.order{
+  padding: 15px;
+}
+.content{
+  text-align: center;
+  background-color: #e1e5f2;
+}

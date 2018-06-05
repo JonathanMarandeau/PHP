@@ -14,9 +14,9 @@
     <h2>Exercice 4</h2>
       <div class="content">
         <!--Je crée un tableau mois-->
-        <p><?php $months = array ('janvier', 'février', 'mars', 'avril', 'mai', 'juin', 'juillet', 'aout', 'septembre', 'octobre', 'novembre', 'décembre'); ?></p>
+        <?php $months = array ('janvier', 'février', 'mars', 'avril', 'mai', 'juin', 'juillet', 'aout', 'septembre', 'octobre', 'novembre', 'décembre'); ?>
         <!--Je récupère la ligne où il y'a aout pour la modifier en août-->
-        <p><?php $months[7] = 'août'; ?></p>
+        <?php $months[7] = 'août'; ?>
         <!--J'affiche le tableau avec la boucle foreach-->
         <p><?php foreach ($months as $month) {
           echo $month . ' ';
