@@ -65,6 +65,7 @@ include 'indexController.php';
                     <div class="form-row">
                         <div class="form-group col-lg-6 text-center">
                             <label for="lastname">Nom</label><br />
+                            <!-- La partie php permet de garder sur le formulaire ce qui a été rentré par l'utilisateur-->
                             <input type="text" name="lastname" id="lastname" placeholder="Votre nom" value="<?= isset($lastname) ? $lastname : '' ?>" />
                             <p><?= isset($formError['lastname']) ? $formError['lastname'] : '' ?></p>
                         </div>
