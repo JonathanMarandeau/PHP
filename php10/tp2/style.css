@@ -1,0 +1,32 @@
+body{
+    font-family: 'Orbitron', sans-serif;
+    background-color: #297f22;
+    color: white;
+}
+h1{
+    margin-top: 2rem;
+    text-decoration: underline;
+    color: #330f0a;
+}
+.order{
+    font-size: 1.3rem;
+    padding-top: 1rem;
+    color: #efdd8d;
+}
+h2{
+    margin-top: 7rem;
+    text-decoration: underline;
+    color: #330f0a;
+}
+label{
+    font-size: 1.2rem;
+    text-decoration: underline;
+    color: #efdd8d;
+}
+.buttonSend{
+    margin: 1rem;
+}
+.content{
+    background-color: black;
+    padding: 2rem;
+}
